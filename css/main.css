@@ -2,25 +2,34 @@ body {
     width: 1366px;
     color: black;
     font-family: 'Montserrat', sans-serif;
-    background: url('../img/taco-plate-sized.png');
+    margin: auto;
     background-color: purple;
 }
+
+#bg {
+    margin: auto;
+    position: absolute;
+    z-index: -1;
+  }
+
 
 /********************* webpage title ******************************/
 
 h1 {
     color: #97c08a;
     font-family: 'Damion', cursive;
-    font-size: 140px;
+    font-size: 130px;
     text-shadow: 2px 2px black;
     margin-top: 20px;
     margin-bottom: 25px;
     width: 1366px;
     text-align: center;
+    letter-spacing: -1px;
 }
 
 span {
     font-size: 170px;
+    letter-spacing:-25px;
 }
 
 /********************* navigation and extra info boxes ***************/
